@@ -34,11 +34,15 @@
 
 [DocStruct: A Multimodal Method to Extract Hierarchy Structure in Document for General Form Understanding](https://arxiv.org/pdf/2010.11685.pdf)
 
-[Graph Convolution for Multimodal Information Extraction from Visually Rich Documents](https://arxiv.org/pdf/1903.11279.pdf)
+✨[Graph Convolution for Multimodal Information Extraction from Visually Rich Documents](https://arxiv.org/pdf/1903.11279.pdf)
 
 [Spatial Dependency Parsing for Strutured Document Information Extraction](https://arxiv.org/pdf/2005.00642.pdf)
 
+[GraphIE: A Graph-Based Framework for Information Extraction](https://arxiv.org/pdf/1810.13083.pdf)
+
 [Table Detection in Invoice Documents by Graph Neural Networks](https://priba.github.io/assets/publi/conf/2019_ICDAR_PRiba.pdf)
+
+✨[Understanding the Logical and Semantic Structure of Large Documents](https://arxiv.org/pdf/1709.00770.pdf)
 
 [Robust Layout-aware IE for Visually Rich Documents with Pre-trained Language Models](https://arxiv.org/pdf/2005.11017.pdf)
 
@@ -84,7 +88,7 @@
 
 ## Pre-trained Models for Document Analysis
 
-[LayoutLM: Pre-training of Text and Layout for Document Image Understanding](https://arxiv.org/pdf/1912.13318.pdf)
+✨[LayoutLM: Pre-training of Text and Layout for Document Image Understanding](https://arxiv.org/pdf/1912.13318.pdf)
 
 [LayoutLMv2: Multi-modal Pre-training for Visually-rich Document Understanding](https://arxiv.org/pdf/2012.14740.pdf)
 
@@ -94,17 +98,25 @@
 
 [LAMPRET: Layout-Aware Multimodal PreTraining for Document Understanding](https://arxiv.org/pdf/2104.08405.pdf)
 
+[LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking](https://arxiv.org/pdf/2204.08387.pdf)
+
 [SelfDoc: Self-Supervised Document Representation Learning](https://arxiv.org/pdf/2106.03331.pdf)
 
 [Going Full-TILT Boogie on Document Understanding with Text-Image-Layout Transformer](https://arxiv.org/pdf/2102.09550.pdf)
 
 [Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding](https://arxiv.org/pdf/2210.03347.pdf)
 
+## Text Style
+
+[Deep Learning for Text Style Transfer: A Survey](https://arxiv.org/pdf/2011.00416.pdf)
+
 ## Others
 
 [Entity-centered Cross-document Relation Extraction](https://arxiv.org/pdf/2210.16541.pdf)
 
 [RAAT: Relation-Augmented Attention Transformer for Relation Modeling in Document-Level Event Extraction](https://arxiv.org/pdf/2206.03377.pdf)
+
+[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/pdf/1506.01497.pdf)
 
 ## Dataset (Data for 2022 not yet expanded)
 
@@ -128,29 +140,33 @@
 
 ### Document Information Extraction
 
-| Dataset  | Language                 | Paper                          |
-| -------- | ------------------------ | ------------------------------ |
-| FUNSD    | English                  | (Guillaume Jaume,2019)         |
-| SROIE    | English                  | (Huang et al.,2019)            |
-| CORD     | English                  | (Park et al.,2019)             |
-| EATEN    | Chinese                  | (Guo et al.,2019)              |
-| EPHOIE   | Chinese                  | Wang et al.,2021)              |
-| Deepform | English                  | (Stray and Svetlichnaya, 2020) |
-| Kleister | English                  | Stanislawek et al.,2021)       |
-| XFUND    | Chinese/Japanese ....... | (Xu et al.,2021b)              |
+| Dataset  | Language                 | Paper                                                        |
+| -------- | ------------------------ | ------------------------------------------------------------ |
+| FUNSD    | English                  | (Guillaume Jaume,2019) [1905.13538.pdf (arxiv.org)](https://arxiv.org/pdf/1905.13538.pdf) |
+| SROIE    | English                  | (Huang et al.,2019) [2103.10213.pdf (arxiv.org)](https://arxiv.org/pdf/2103.10213.pdf) |
+| CORD     | English                  | (Park et al.,2019) [pdf (openreview.net)](https://openreview.net/pdf?id=SJl3z659UH) |
+| EATEN    | Chinese                  | (Guo et al.,2019)                                            |
+| EPHOIE   | Chinese                  | Wang et al.,2021)                                            |
+| Deepform | English                  | (Stray and Svetlichnaya, 2020)                               |
+| Kleister | English                  | Stanislawek et al.,2021)                                     |
+| XFUND    | Chinese/Japanese ....... | (Xu et al.,2021b)                                            |
 
 ### Document Visual Question Answering
 
-| Dataset         | Language | Paper                  |
-| --------------- | -------- | ---------------------- |
-| DocVQA          | English  | (Mathew et al.,2021b)  |
-| InfographicsVQA | English  | (Mathew et al.,2021a)  |
-| VisualMRC       | English  | (Tanaka et al.,2021)   |
-| Insurance VQA   | Chinese  | https://bit.ly/3602Vow |
+| Dataset         | Language | Paper                                                        |
+| --------------- | -------- | ------------------------------------------------------------ |
+| DocVQA          | English  | (Mathew et al.,2021b)[2007.00398.pdf (arxiv.org)](https://arxiv.org/pdf/2007.00398.pdf) |
+| InfographicsVQA | English  | (Mathew et al.,2021a)                                        |
+| VisualMRC       | English  | (Tanaka et al.,2021)                                         |
+| Insurance VQA   | Chinese  | https://bit.ly/3602Vow                                       |
 
 ### Document Image Classification
 
-| Dataset      | Language | Paper                |
-| ------------ | -------- | -------------------- |
-| Tobacco-3482 | English  | (Kumar et al.,2014)  |
-| RVL-CDIP     | English  | (Harley et al.,2015) |
+| Dataset      | Language | Paper                                                        |
+| ------------ | -------- | ------------------------------------------------------------ |
+| Tobacco-3482 | English  | (Kumar et al.,2014)                                          |
+| RVL-CDIP     | English  | (Harley et al.,2015) [1502.07058.pdf (arxiv.org)](https://arxiv.org/pdf/1502.07058.pdf) |
+
+### Document of Articles
+
+[Structural Metadata from ArXiv Articles (umbc.edu)](https://ebiquity.umbc.edu/resource/html/id/374)
